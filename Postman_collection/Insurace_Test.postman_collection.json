@@ -1,0 +1,160 @@
+{
+	"id": "c900fcc4-d0e3-3dbc-ace2-f5d0d52d8b9e",
+	"name": "Insurace_Test",
+	"description": "",
+	"order": [
+		"d32c265d-ef6e-654f-ea6b-71e4122dd165",
+		"d2bb2f74-059f-1177-a5ca-3eaecca8aa1b",
+		"a89890d1-fa55-77e9-9181-339f04993d64",
+		"19c1480a-f7dc-bbe6-86a2-7f2d7bca6bb2",
+		"ac021018-3fac-a90b-6a57-1b55f0082827"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1634647912034,
+	"owner": "17988821",
+	"public": false,
+	"requests": [
+		{
+			"id": "19c1480a-f7dc-bbe6-86a2-7f2d7bca6bb2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/insproduct/100",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1634819204334,
+			"name": "PUT Insurance (upd doc)",
+			"description": "",
+			"collectionId": "c900fcc4-d0e3-3dbc-ace2-f5d0d52d8b9e",
+			"responses": [],
+			"rawModeData": "{\n        \"datefinish\": \"2022-10-18T13:04:47Z[UTC]\",\n        \"datestart\": \"2018-10-18T13:04:40Z[UTC]\",\n        \"docnumber\": \"100INS1111\",\n        \"inssum\": 230000,\n        \"prodver\": 100\n}"
+		},
+		{
+			"id": "a89890d1-fa55-77e9-9181-339f04993d64",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/insproduct/filter\n",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1634816161836,
+			"name": "GET Insurance (filtered)",
+			"description": "",
+			"collectionId": "c900fcc4-d0e3-3dbc-ace2-f5d0d52d8b9e",
+			"responses": [],
+			"rawModeData": "{\n\t    \"datefinish\": \"2025-10-18T13:04:47Z[UTC]\",\n        \"datestart\": \"2010-10-18T13:04:40Z[UTC]\",\n        \"minsum\": 249000,\n        \"maxsum\": 251000\n}"
+		},
+		{
+			"id": "ac021018-3fac-a90b-6a57-1b55f0082827",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/insproduct/121",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1634819168776,
+			"name": "DELETE Insurance (del doc)",
+			"description": "",
+			"collectionId": "c900fcc4-d0e3-3dbc-ace2-f5d0d52d8b9e",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "d2bb2f74-059f-1177-a5ca-3eaecca8aa1b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/insproduct\n",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c900fcc4-d0e3-3dbc-ace2-f5d0d52d8b9e",
+			"data": [],
+			"dataMode": "params",
+			"name": "GET Insurance (all doc)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1634650058220,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d32c265d-ef6e-654f-ea6b-71e4122dd165",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/insproduct",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1634819201622,
+			"name": "POST Insurance (add doc)",
+			"description": "",
+			"collectionId": "c900fcc4-d0e3-3dbc-ace2-f5d0d52d8b9e",
+			"responses": [],
+			"rawModeData": "{\n    \"datefinish\": \"2022-06-21T13:04:47Z[UTC]\",\n    \"datestart\": \"2010-07-23T13:04:40Z[UTC]\",\n    \"inssum\": 200000,\n    \"prodver\": 420\n}\n"
+		}
+	]
+}
