@@ -1,0 +1,4 @@
+org\acme\InsFilter.class
+org\acme\InsResource$ErrorMapper.class
+org\acme\InsProduct.class
+org\acme\InsResource.class
